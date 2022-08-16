@@ -2,7 +2,7 @@
 Help you focus business logic
 
 ### INStALL
-npm install @hiennc/core
+npm install @hiennc24/core
 
 ### HOW TO USE
 Follow testing file

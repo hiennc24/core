@@ -1,6 +1,6 @@
 {
-  "name": "@hiennc/core",
-  "version": "1.0.4",
+  "name": "@hiennc24/core",
+  "version": "1.0.5",
   "description": "Help you focus business logic",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -25,9 +25,9 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hiennchat/core.git"
+    "url": "git+https://github.com/hiennc24/core.git"
   },
-  "homepage": "https://github.com/hiennchat/core#readme",
+  "homepage": "https://github.com/hiennc24/core#readme",
   "devDependencies": {
     "@types/chai": "^4.2.18",
     "@types/compression": "^1.7.0",
