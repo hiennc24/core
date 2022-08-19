@@ -20,7 +20,7 @@ export abstract class MainApplication {
 
   constructor(
     public logger: ILogger,
-    { port = 5000, debug = false, name = 'Example', version = '1.0.0', cors: _cors = {} }: Config
+    { port = 8008, debug = false, name = 'Biso24', version = '1.0.0', cors: _cors = {} }: Config
   ) {
     this.config = {
       port,

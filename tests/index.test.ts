@@ -24,21 +24,21 @@ class UserController extends Controller {
     this.router.post('/user', this.wrapTryCatch(this.create));
   }
 
-  async getUser(req: Request, res: Response, next: NextFunction) {
+  async getUser(req: Request, res: Response) {
     const result = 'GET USER';
 
     sendSuccessResponse(result, res);
   }
 
-  async create(req: Request, res: Response, next: NextFunction) {
+  async create(req: Request, res: Response) {
     throw new Error();
   }
 }
 
 class App extends MainApplication {
   constructor() {
-    super(console, { name: 'My app', version: packageJSON.version, port: 5000 });
-    this.setupControllers(new UserController());
+    super(console, { name: 'My app', version: packageJSON.version, port: 8008 });
+    // this.setupControllers(new UserController());
   }
 }
 
